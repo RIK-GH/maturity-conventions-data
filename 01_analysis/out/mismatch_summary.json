@@ -1,0 +1,52 @@
+{
+  "eligible_groups": 73,
+  "withinmix_groups_fit": 73,
+  "withinmix_R2_median": 0.953,
+  "withinmix_R2_q1": 0.918,
+  "withinmix_R2_q3": 0.974,
+  "global_fits": [
+    {
+      "convention": "NS0",
+      "n": 1976,
+      "R2": 0.367,
+      "RMSE_MPa": 18.6
+    },
+    {
+      "convention": "TTF10",
+      "n": 1976,
+      "R2": 0.348,
+      "RMSE_MPa": 18.87
+    },
+    {
+      "convention": "EA335",
+      "n": 1976,
+      "R2": 0.363,
+      "RMSE_MPa": 18.65
+    }
+  ],
+  "mismatch_groups": 73,
+  "mismatch_median_MPa": {
+    "TTF10_into_NS0": 2.54,
+    "EA335_into_NS0": 19.08,
+    "NS0_into_TTF10": 3.02,
+    "EA335_into_TTF10": 22.28,
+    "NS0_into_EA335": 16.91,
+    "TTF10_into_EA335": 18.89
+  },
+  "mismatch_q3_MPa": {
+    "TTF10_into_NS0": 4.02,
+    "EA335_into_NS0": 28.23,
+    "NS0_into_TTF10": 4.64,
+    "EA335_into_TTF10": 33.24,
+    "NS0_into_EA335": 23.39,
+    "TTF10_into_EA335": 26.17
+  },
+  "mismatch_max_MPa": {
+    "TTF10_into_NS0": 14.73,
+    "EA335_into_NS0": 46.18,
+    "NS0_into_TTF10": 10.72,
+    "EA335_into_TTF10": 50.73,
+    "NS0_into_EA335": 61.45,
+    "TTF10_into_EA335": 70.78
+  }
+}

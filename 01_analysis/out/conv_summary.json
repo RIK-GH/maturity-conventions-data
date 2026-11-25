@@ -1,0 +1,24 @@
+{
+  "corpus_rows": 2471,
+  "corpus_sources": 37,
+  "convention_rows": {
+    "TTF_-10": 1405,
+    "unreported": 583,
+    "other": 209,
+    "equivalent_age": 149,
+    "TTF_NurseSaul": 125
+  },
+  "convention_pct": {
+    "TTF_-10": 56.9,
+    "unreported": 23.6,
+    "other": 8.5,
+    "equivalent_age": 6.0,
+    "TTF_NurseSaul": 5.1
+  },
+  "unreported_rows": 583,
+  "unreported_pct": 23.6,
+  "unreported_rows_carrying_maturity_value": 0,
+  "sources_using_2plus_conventions": 0,
+  "datum_unstated_rows": 850,
+  "datum_unstated_pct": 34.4
+}

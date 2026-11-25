@@ -1,0 +1,26 @@
+%% Fig. 1 — Analysis workflow (mermaid source; render with mermaid-cli)
+%% Counts mirror out/{conv,mismatch,holdout}_summary.json as of 2026-08-13.
+flowchart TB
+    A("<b>Assembled corpus</b><br/>2,471 strength observations<br/>from 37 source studies")
+    B("<b>Reporting profile — Sect. 3</b><br/>convention, parameters, units<br/>as published, never converted")
+    C("<b>Eligibility screen</b><br/>isothermal-type curing, W/B stated,<br/>&ge;2 temperatures, &ge;3 ages, &ge;8 rows<br/>&rarr; 73 mixture groups, 1,976 rows")
+    D("<b>Material coherence — Sect. 4</b><br/>within-group R&sup2; = 0.953<br/>vs. pooled R&sup2; &asymp; 0.35;<br/>parameters track composition")
+    E("<b>Experiment 1 — Sect. 5</b><br/>convention-mismatch error:<br/>curve fitted under A, evaluated<br/>with maturity under B<br/>6 ordered pairs, 73 groups")
+    F("<b>Experiment 2 — Sect. 6</b><br/>withheld-temperature datum tuning:<br/>251 paired tests,<br/>70 groups, 19 sources,<br/>bootstrap 10,000 replicates")
+    G("<b>Five-item minimum reporting set — Sect. 7</b><br/>convention and formula, parameter values, units,<br/>raw temperature&ndash;age&ndash;strength records, mixture identifier")
+
+    A --> B
+    A --> C
+    C --> D
+    C --> E
+    C --> F
+    D --> G
+    E --> G
+    F --> G
+
+    classDef data fill:#EFF4FE,stroke:#2563EB,stroke-width:1.6px,color:#1F2937
+    classDef analysis fill:#EBF7F6,stroke:#0D9488,stroke-width:1.6px,color:#1F2937
+    classDef outcome fill:#FDF2EB,stroke:#EA580C,stroke-width:1.8px,color:#1F2937
+    class A,C data
+    class B,D,E,F analysis
+    class G outcome

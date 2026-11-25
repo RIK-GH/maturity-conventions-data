@@ -1,0 +1,339 @@
+{
+  "attrition": {
+    "corpus_rows": 2471,
+    "corpus_sources": 37,
+    "curing_rows": 2196,
+    "curing_sources": 29,
+    "complete_rows": 2065,
+    "complete_sources": 24,
+    "candidate_groups": 82,
+    "fail_lt2_temps": 4,
+    "fail_lt3_ages": 5,
+    "fail_lt8_rows": 0,
+    "eligible_groups": 73,
+    "eligible_rows": 1976,
+    "eligible_sources": 19
+  },
+  "three_conventions": {
+    "rows": 1679,
+    "pct_of_all_rows": 67.9,
+    "pct_of_rows_with_stated_index": 88.9
+  },
+  "fits": {
+    "group_convention_fits": 219,
+    "fit_failures": 0,
+    "beta_bound_hits": 0,
+    "su_bound_hits": {
+      "NS0": {
+        "su_lower": 1,
+        "su_upper": 5,
+        "su_any": 6
+      },
+      "TTF10": {
+        "su_lower": 1,
+        "su_upper": 4,
+        "su_any": 5
+      },
+      "EA335": {
+        "su_lower": 2,
+        "su_upper": 5,
+        "su_any": 7
+      }
+    },
+    "withinmix_R2_median": {
+      "NS0": 0.956,
+      "TTF10": 0.953,
+      "EA335": 0.96
+    },
+    "aligned_rmse_median_MPa": {
+      "NS0": 2.89,
+      "TTF10": 2.56,
+      "EA335": 2.66
+    },
+    "misaligned_rmse_median_MPa": {
+      "TTF10_into_NS0": 5.74,
+      "EA335_into_NS0": 22.72,
+      "NS0_into_TTF10": 6.47,
+      "EA335_into_TTF10": 25.93,
+      "NS0_into_EA335": 19.87,
+      "TTF10_into_EA335": 22.13
+    }
+  },
+  "validity": {
+    "n_fits": 73,
+    "spearman_Su_wb": -0.74,
+    "p": 7.051699266423196e-14,
+    "su_on_bound": 5,
+    "spearman_Su_wb_excl_bound": -0.825,
+    "n_excl_bound": 68,
+    "spearman_Su_wb_hier_ci": [
+      -0.91,
+      -0.46
+    ],
+    "tau_median_Ch": {
+      "FA": 6186.0,
+      "LowHeat": 4584.0,
+      "OPC": 1661.0,
+      "SF": 1307.0,
+      "Slag": 5370.0
+    },
+    "binder_counts": {
+      "OPC": 41,
+      "Slag": 10,
+      "SF": 10,
+      "FA": 6,
+      "LowHeat": 6
+    },
+    "beta_median": 0.6,
+    "beta_range": [
+      0.12,
+      1.14
+    ]
+  },
+  "datum_grid": {
+    "candidate_tests": 257,
+    "groups_3_temps": 45,
+    "groups_4plus_temps": 25,
+    "grid_size": 41,
+    "feasible_min": 30,
+    "feasible_median": 35.0,
+    "exact_ties": 0,
+    "boundary_tests": 9,
+    "boundary_negative": 6,
+    "boundary_zero": 3
+  },
+  "holdout_variants": {
+    "published_251": {
+      "tests": 251,
+      "groups": 70,
+      "sources": 19,
+      "nested_better": 111,
+      "tie": 25,
+      "fixed_better": 115,
+      "median": 0.0,
+      "group_equal": [
+        -0.447,
+        -1.223,
+        0.062
+      ],
+      "source_equal": [
+        -0.615,
+        -1.659,
+        0.103
+      ]
+    },
+    "exclude_boundary": {
+      "tests": 248,
+      "groups": 70,
+      "sources": 19,
+      "nested_better": 111,
+      "tie": 25,
+      "fixed_better": 112,
+      "median": 0.0,
+      "group_equal": [
+        -0.076,
+        -0.435,
+        0.272
+      ],
+      "source_equal": [
+        -0.029,
+        -0.454,
+        0.435
+      ]
+    },
+    "restricted_search": {
+      "tests": 257,
+      "groups": 70,
+      "sources": 19,
+      "nested_better": 111,
+      "tie": 25,
+      "fixed_better": 121,
+      "median": 0.0,
+      "group_equal": [
+        -0.576,
+        -1.464,
+        -0.008
+      ],
+      "source_equal": [
+        -0.896,
+        -2.151,
+        0.0
+      ]
+    },
+    "boundary_tests": [
+      {
+        "source_no": 9,
+        "wb": 55.0,
+        "binder": "Slag",
+        "held_temp_C": 5.0,
+        "n_temps": 3,
+        "feasible": 41,
+        "selected": 5.0,
+        "n_exact_ties": 1,
+        "min_train_T": 20.0,
+        "max_feasible_t0": 15.0
+      },
+      {
+        "source_no": 20,
+        "wb": 30.0,
+        "binder": "SF",
+        "held_temp_C": 10.0,
+        "n_temps": 3,
+        "feasible": 41,
+        "selected": 10.0,
+        "n_exact_ties": 1,
+        "min_train_T": 20.0,
+        "max_feasible_t0": 15.0
+      },
+      {
+        "source_no": 23,
+        "wb": 79.5,
+        "binder": "FA",
+        "held_temp_C": 5.0,
+        "n_temps": 3,
+        "feasible": 41,
+        "selected": 7.0,
+        "n_exact_ties": 1,
+        "min_train_T": 20.0,
+        "max_feasible_t0": 15.0
+      },
+      {
+        "source_no": 23,
+        "wb": 79.5,
+        "binder": "OPC",
+        "held_temp_C": 5.0,
+        "n_temps": 3,
+        "feasible": 41,
+        "selected": 6.0,
+        "n_exact_ties": 1,
+        "min_train_T": 20.0,
+        "max_feasible_t0": 15.0
+      },
+      {
+        "source_no": 29,
+        "wb": 35.0,
+        "binder": "OPC",
+        "held_temp_C": 5.0,
+        "n_temps": 3,
+        "feasible": 41,
+        "selected": 5.0,
+        "n_exact_ties": 1,
+        "min_train_T": 20.0,
+        "max_feasible_t0": 15.0
+      },
+      {
+        "source_no": 42,
+        "wb": 28.0,
+        "binder": "SF",
+        "held_temp_C": 5.0,
+        "n_temps": 3,
+        "feasible": 41,
+        "selected": 8.0,
+        "n_exact_ties": 1,
+        "min_train_T": 20.0,
+        "max_feasible_t0": 15.0
+      },
+      {
+        "source_no": 42,
+        "wb": 40.0,
+        "binder": "SF",
+        "held_temp_C": 5.0,
+        "n_temps": 3,
+        "feasible": 41,
+        "selected": 11.0,
+        "n_exact_ties": 1,
+        "min_train_T": 20.0,
+        "max_feasible_t0": 15.0
+      },
+      {
+        "source_no": 69,
+        "wb": 54.0,
+        "binder": "FA",
+        "held_temp_C": 10.0,
+        "n_temps": 3,
+        "feasible": 41,
+        "selected": 15.0,
+        "n_exact_ties": 1,
+        "min_train_T": 23.0,
+        "max_feasible_t0": 15.0
+      },
+      {
+        "source_no": 69,
+        "wb": 54.0,
+        "binder": "OPC",
+        "held_temp_C": 10.0,
+        "n_temps": 3,
+        "feasible": 41,
+        "selected": 12.0,
+        "n_exact_ties": 1,
+        "min_train_T": 23.0,
+        "max_feasible_t0": 15.0
+      }
+    ]
+  },
+  "high_confidence": {
+    "groups": 43,
+    "rows": 1079,
+    "sources": 13
+  },
+  "pooled_groups": {
+    "groups": 16,
+    "rows": 553,
+    "sources": [
+      8,
+      9,
+      41,
+      44,
+      45,
+      52
+    ],
+    "per_attribute": {
+      "consist": 6,
+      "mortar": 4,
+      "kiln": 3,
+      "fiber": 1,
+      "water": 1,
+      "cement": 1
+    },
+    "excluded_sensitivity": {
+      "groups_left": 57,
+      "within_median_range": [
+        2.69,
+        3.58
+      ],
+      "cross_median_range": [
+        15.72,
+        25.62
+      ],
+      "withinmix_R2_median": 0.953,
+      "spearman_Su_wb": -0.889,
+      "holdout": {
+        "tests": 205,
+        "groups": 55,
+        "sources": 16,
+        "nested_better": 92,
+        "tie": 25,
+        "fixed_better": 88,
+        "median": 0.0,
+        "group_equal": [
+          -0.293,
+          -1.12,
+          0.22
+        ],
+        "source_equal": [
+          -0.533,
+          -1.634,
+          0.25
+        ]
+      }
+    }
+  },
+  "cross_ratio_TTF10_EA335": {
+    "at_20C": 30.0,
+    "range_5_40C": [
+      20.8,
+      32.5
+    ],
+    "NS0_EA335_at_20C": 20.0
+  }
+}

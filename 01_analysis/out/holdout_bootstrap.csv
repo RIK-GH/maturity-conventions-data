@@ -1,0 +1,4 @@
+estimand,estimate_MPa,ci95_low,ci95_high,tn_reference
+row_median,0.0,-0.123,0.054,
+group_equal_mean,-0.447,-1.223,0.062,"(-0.447, -1.213, 0.055)"
+source_equal_mean,-0.615,-1.659,0.103,"(-0.615, -1.629, 0.106)"

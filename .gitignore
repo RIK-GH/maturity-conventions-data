@@ -1,0 +1,66 @@
+# ============================================================
+# Public release repository (GitHub -> Zenodo DOI)
+#
+# Tracked, as stated in the article's "Availability of data and materials":
+#   00_dataset/maturity_corpus_v3.csv   Additional file 1: row-level dataset   (CC BY 4.0)
+#   00_dataset/sources_37.csv           Additional file 2: source register     (CC BY 4.0)
+#   01_analysis/out/group_map.csv       Additional file 3: group mapping       (CC BY 4.0)
+#   01_analysis/out/                    derived results                        (CC BY 4.0)
+#   03_figures/                         generated figures                      (CC BY 4.0)
+#   01_analysis/*.py                    analysis code                          (MIT)
+#   README.md, LICENSE, LICENSE-DATA
+#
+# The Zenodo-GitHub integration archives the tagged release as committed,
+# so anything ignored here is also left out of the Zenodo deposit.
+# ============================================================
+
+# --- Written by the scripts when they run; used only to build the article
+02_manuscript/
+
+# --- Kept only in the private working repository (never publish)
+04_submission/
+05_revision/
+_source_pdfs*/
+01_analysis/_superseded/
+00_dataset/original_titles.csv
+manuscript*
+*Response_to_Reviewers*
+*_rik.*
+CSTR-D-*
+*.docx
+*.doc
+*.zip
+
+# --- PDFs: only the figure PDFs are published (keeps article and source PDFs out)
+*.pdf
+!03_figures/*.pdf
+
+# --- LaTeX build by-products
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# --- Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# --- OS and editors
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*
+*.tmp
+*.bak
+*.swp
+.vscode/
+.idea/
+.claude/

@@ -1,0 +1,17 @@
+{
+  "n_within": 73,
+  "n_cross": 73,
+  "spearman_cross_vs_Smax": 0.83,
+  "p_cross_vs_Smax": 1.862599731360316e-19,
+  "spearman_within_rel_vs_Tmin": -0.36,
+  "p_within_rel_vs_Tmin": 0.0019382241687447505,
+  "t10_n": 73,
+  "t10_median_h": 31.7,
+  "t10_q1_h": 18.0,
+  "t10_q3_h": 56.8,
+  "ratio_20C_NS0curve_TTFdata": 0.67,
+  "ratio_20C_TTFcurve_NS0data": 1.5,
+  "ratio_5C_NS0curve_TTFdata": 0.33,
+  "ratio_20C_TTFcurve_EAdata": 30.0,
+  "ratio_20C_EAcurve_TTFdata": 0.033
+}

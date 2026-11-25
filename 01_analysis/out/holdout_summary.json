@@ -1,0 +1,46 @@
+{
+  "tests": 251,
+  "groups": 70,
+  "sources": 19,
+  "directions": {
+    "nested_better": 111,
+    "tie": 25,
+    "fixed_better": 115
+  },
+  "delta_median_MPa": 0.0,
+  "delta_q1_MPa": -0.332,
+  "delta_q3_MPa": 0.436,
+  "bootstrap": [
+    {
+      "estimand": "row_median",
+      "estimate_MPa": 0.0,
+      "ci95_low": -0.123,
+      "ci95_high": 0.054,
+      "tn_reference": null
+    },
+    {
+      "estimand": "group_equal_mean",
+      "estimate_MPa": -0.447,
+      "ci95_low": -1.223,
+      "ci95_high": 0.062,
+      "tn_reference": [
+        -0.447,
+        -1.213,
+        0.055
+      ]
+    },
+    {
+      "estimand": "source_equal_mean",
+      "estimate_MPa": -0.615,
+      "ci95_low": -1.659,
+      "ci95_high": 0.103,
+      "tn_reference": [
+        -0.615,
+        -1.629,
+        0.106
+      ]
+    }
+  ],
+  "seed": 20260718,
+  "reps": 10000
+}

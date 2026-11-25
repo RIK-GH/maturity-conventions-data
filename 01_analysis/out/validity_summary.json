@@ -1,0 +1,19 @@
+{
+  "n_fits": 73,
+  "spearman_Su_wb": -0.74,
+  "p_Su_wb": 7.051699266423196e-14,
+  "tau_median_Ch": {
+    "FA": 6186.0,
+    "LowHeat": 4584.0,
+    "OPC": 1661.0,
+    "SF": 1307.0,
+    "Slag": 5370.0
+  },
+  "binder_counts": {
+    "OPC": 41,
+    "Slag": 10,
+    "SF": 10,
+    "FA": 6,
+    "LowHeat": 6
+  }
+}

@@ -1,0 +1,26 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+This license applies to the data files and figures of this repository:
+
+  - the compiled dataset (00_dataset/maturity_corpus_v3.csv), the source
+    register (00_dataset/sources_37.csv), and the group map
+    (01_analysis/out/group_map.csv) ("the compilation");
+  - the other derived results in 01_analysis/out/; and
+  - the figures in 03_figures/.
+
+These files are licensed under the Creative Commons Attribution 4.0
+International License. To view a copy of this license, visit
+https://creativecommons.org/licenses/by/4.0/
+
+Attribution: cite the accompanying article (Rhee, "Quantifying the
+strength-prediction errors of maturity-convention mismatch in cross-study
+reuse of strength–maturity data") and this repository. When reusing
+individual data rows, please also cite the original source publication
+identified by the row's source_no (bibliographic details in
+00_dataset/sources_37.csv).
+
+Note: for the compilation, the license covers the compilation and its
+curation. The numerical values themselves are facts extracted from the cited
+publications; no copyrighted expression (text, figure images, or table
+images) of the original articles is included, and the copyright of the
+original articles remains with their respective publishers.
