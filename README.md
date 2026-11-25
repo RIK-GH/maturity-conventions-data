@@ -6,6 +6,8 @@ strength–maturity data* by Inkyu Rhee, Department of Civil Engineering, and Sm
 Research Center, Chonnam National University, Gwangju 61186, Republic of Korea
 (rheei@jnu.ac.kr).
 
+Zenodo DOI: [10.5281/zenodo.24533898](https://doi.org/10.5281/zenodo.24533898) (version v1.0.0)
+
 ## Main findings
 
 - Once the maturity convention is identified, the corpus is materially coherent:
