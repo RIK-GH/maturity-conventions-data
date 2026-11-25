@@ -1,0 +1,12 @@
+{
+  "title": "Maturity-convention mismatch in cross-study reuse of strength–maturity data",
+  "upload_type": "dataset",
+  "description": "Data, analysis code, derived results, and figures for the article \"Quantifying the strength-prediction errors of maturity-convention mismatch in cross-study reuse of strength–maturity data\".",
+  "creators": [
+    {
+      "name": "Rhee, Inkyu",
+      "affiliation": "Department of Civil Engineering, and Smart City Research Center, Chonnam National University"
+    }
+  ],
+  "license": "cc-by-4.0"
+}
